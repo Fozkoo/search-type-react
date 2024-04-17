@@ -6,8 +6,8 @@ function FormAdd() {
   return (
     <>
     
-    <div className="container-form flex items-center justify-center w-full mt-10 flex-col">
-        <Form className='formulario flex flex-col w-7/12 '>
+    <div className="container-form flex items-center justify-center w-full mb-10 flex-col">
+        <Form className='formulario flex flex-col w-full'>
           <Form.Group className="mb-3">
             <Form.Label>ID del usuario</Form.Label>
             <Form.Control type="number" name='id' placeholder='ID' required/>
@@ -33,9 +33,11 @@ function FormAdd() {
             <Form.Control type="number" placeholder="Asignaturas aprobadas" name='asignatures' required />
           </Form.Group>
           
+        <div className="contain-buton">
           <Button variant="primary" type="submit">
             Cargar Alumno
           </Button>
+        </div>  
         </Form>
     </div>
     
