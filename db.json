@@ -1,0 +1,158 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Juan Pérez",
+      "birthdayDay": "1990-05-15",
+      "asignatures": 4,
+      "gender": "masculino"
+    },
+    {
+      "id": "2",
+      "name": "María García",
+      "birthdayDay": "1985-10-20",
+      "asignatures": 6,
+      "gender": "femenino"
+    },
+    {
+      "id": "3",
+      "name": "Carlos Rodríguez",
+      "birthdayDay": "1992-03-08",
+      "asignatures": 8,
+      "gender": "masculino"
+    },
+    {
+      "id": "4",
+      "name": "Ana López",
+      "birthdayDay": "1988-07-02",
+      "asignatures": 10,
+      "gender": "femenino"
+    },
+    {
+      "id": "5",
+      "name": "Pedro Martínez",
+      "birthdayDay": "1995-12-30",
+      "asignatures": 11,
+      "gender": "masculino"
+    },
+    {
+      "id": "6",
+      "name": "Sofía Fernández",
+      "birthdayDay": "1987-09-18",
+      "asignatures": 13,
+      "gender": "femenino"
+    },
+    {
+      "id": "7",
+      "name": "Luis González",
+      "birthdayDay": "1991-02-25",
+      "asignatures": 15,
+      "gender": "masculino"
+    },
+    {
+      "id": "8",
+      "name": "Elena Díaz",
+      "birthdayDay": "1993-06-12",
+      "asignatures": 16,
+      "gender": "femenino"
+    },
+    {
+      "id": "9",
+      "name": "Javier Ruiz",
+      "birthdayDay": "1989-11-05",
+      "asignatures": 18,
+      "gender": "masculino"
+    },
+    {
+      "id": "10",
+      "name": "Carmen Sánchez",
+      "birthdayDay": "1994-04-17",
+      "asignatures": 7,
+      "gender": "femenino"
+    },
+    {
+      "id": "11",
+      "name": "Diego Ramírez",
+      "birthdayDay": "1996-08-22",
+      "asignatures": 9,
+      "gender": "masculino"
+    },
+    {
+      "id": "12",
+      "name": "Paula Torres",
+      "birthdayDay": "1990-01-12",
+      "asignatures": 12,
+      "gender": "femenino"
+    },
+    {
+      "id": "13",
+      "name": "Martín Flores",
+      "birthdayDay": "1986-06-05",
+      "asignatures": 14,
+      "gender": "masculino"
+    },
+    {
+      "id": "14",
+      "name": "Lucía Gómez",
+      "birthdayDay": "1992-09-28",
+      "asignatures": 17,
+      "gender": "femenino"
+    },
+    {
+      "id": "15",
+      "name": "Pablo Jiménez",
+      "birthdayDay": "1988-03-15",
+      "asignatures": 11,
+      "gender": "masculino"
+    },
+    {
+      "id": "16",
+      "name": "Isabel Vázquez",
+      "birthdayDay": "1995-07-10",
+      "asignatures": 9,
+      "gender": "femenino"
+    },
+    {
+      "id": "17",
+      "name": "Alejandro Castro",
+      "birthdayDay": "1987-12-03",
+      "asignatures": 13,
+      "gender": "masculino"
+    },
+    {
+      "id": "18",
+      "name": "Marta Ortega",
+      "birthdayDay": "1993-04-20",
+      "asignatures": 15,
+      "gender": "femenino"
+    },
+    {
+      "id": "19",
+      "name": "Andrés Molina",
+      "birthdayDay": "1991-10-08",
+      "asignatures": 16,
+      "gender": "masculino"
+    },
+    {
+      "id": "20",
+      "name": "Raquel Navarro",
+      "birthdayDay": "1989-05-30",
+      "asignatures": 8,
+      "gender": "femenino"
+    },
+    {
+      "id": "21",
+      "name": "mauro lombardo",
+      "birthdayDay": "1996-06-24",
+      "asignatures": "24",
+      "gender": "masculino"
+    },
+    {
+      "id": "22",
+      "name": "Tiziano Martinelli",
+      "birthdayDay": "2004-05-19",
+      "asignatures": "23",
+      "gender": "masculino"
+    }
+  ]
+}
