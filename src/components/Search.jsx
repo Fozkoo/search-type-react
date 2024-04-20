@@ -52,7 +52,7 @@ function Search() {
               <th>Nombre Completo</th>
               <th>Fecha de nacimiento</th>
               <th>Sexo</th>
-              <th>Aprobadas</th>
+              <th>Aprobada</th>
             </tr>
           </thead>
           <tbody>
