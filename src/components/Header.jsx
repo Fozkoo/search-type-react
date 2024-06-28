@@ -9,7 +9,7 @@ import './header.css';
 function Header() {
     return (
      
-<header>
+    <header>
       <div className="container-header h-20 shadow-sm flex justify-between items-center font-semibold">
         <nav className=' flex justify-center items-center gap-5 text-xl w-full'>
               <Link to="/" className=''>ALUMNOS</Link>
