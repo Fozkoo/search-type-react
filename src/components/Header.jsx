@@ -2,30 +2,22 @@ import '@fontsource-variable/onest';
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Outlet } from 'react-router-dom';
-
-
-
+import logo from '../image/logo.png';
+import './header.css';
 
 
 function Header() {
     return (
-      <header>
-        <div className="container-header h-24 bg-gray-200 flex justify-center items-center font-bold">
-            <nav>
-              <ul className='flex gap-5 text-white textde'>
-                <li>
-                  <Link to="/" className=''>ALUMNOS</Link>
-                </li>
-                <li>
-                  <Link to="/men">HOMBRES</Link>
-                </li>
-                <li>
-                  <Link to="/woman">MUJERES</Link>
-                </li>
-              </ul>
-            </nav>
-        </div>
-      </header>
+     
+<header>
+      <div className="container-header h-20 shadow-sm flex justify-between items-center font-semibold">
+        <nav className=' flex justify-center items-center gap-5 text-xl w-full'>
+              <Link to="/" className=''>ALUMNOS</Link>
+              <Link to="/men">HOMBRES</Link>
+              <Link to="/woman">MUJERES</Link>
+        </nav>
+      </div>
+    </header>
           
     );
   }
