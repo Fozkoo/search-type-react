@@ -1,9 +1,6 @@
 import '@fontsource-variable/onest';
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Outlet } from 'react-router-dom';
-import logo from '../image/logo.png';
-import './header.css';
 
 
 function Header() {

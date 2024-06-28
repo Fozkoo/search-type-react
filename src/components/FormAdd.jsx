@@ -4,6 +4,9 @@ import Form from 'react-bootstrap/Form';
 import servicesAPI from '../services/helper.js';
 
 function FormAdd() {
+
+  // constante que guarda los datos del formulario 
+
   const [formData, setFormData] = useState({
     id: '',
     name: '',
@@ -11,6 +14,9 @@ function FormAdd() {
     asignatures: '',
     gender: ''
   });
+
+
+  // Función que se encarga de capturar los datos del formulario
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,16 +26,21 @@ function FormAdd() {
     });
   };
 
+
+  // Función que se encarga de enviar los datos del formulario al backend
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await servicesAPI.addStudent(formData);
+      const response = await servicesAPI.addStudent(formData); // Se envían los datos al backend utilizando la funcion que viene del helper
       alert('Alumno agregado correctamente');
-      window.location.reload();
+      window.location.reload(); 
     } catch (error) {
       alert('Ocurrió un error al agregar el alumno');
     }
   };
+
+
 
   return (
     <>
