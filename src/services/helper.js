@@ -26,6 +26,8 @@ const searchMale = async () => {
   }
 };
 
+// Funcion para buscar los estudiantes de genero femenino,
+
 const searchFemale = async () => {
   try {
     const response = await api.get('/students', { params: { gender: 'femenino' } });
@@ -36,11 +38,41 @@ const searchFemale = async () => {
   }
 };
 
+
+
+// Funcion para buscar todos los estudiantes
+
+
+const searchAll = async () => {
+  try {
+    const response = await api.get('/students');
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching all students:", error);
+    throw error;
+  }
+};
+
+
+// funcion para cargar un estudiante
+const addStudent = async (studentData) => {
+  try {
+    const response = await api.post('/students', studentData);
+    return response.data;
+  } catch (error) {
+    console.error("Error adding student:", error);
+    throw error;
+  }
+};
+
+
 // Se crea un objeto donde se guardan las funciones para exportarlas y poder usarlas en otros archivos
 
 const servicesAPI = {
   searchMale,
-  searchFemale
+  searchFemale,
+  searchAll,
+  addStudent
 };
 
 // Exporto el objeto servicesAPI

@@ -33,7 +33,7 @@ function Men() {
   }, []);
 
 
-  // Funcion para buscar los estudiantes, se filtra por nombre
+  // Funcion para buscar los estudiantes, se filtra por letra
 
   const searcher = (e) => {
     setSearch(e.target.value);
