@@ -42,7 +42,7 @@ function Search() {
   return (
     <>
     <div className='container-table flex w-full'>
-        <input type="text" placeholder="Search" onChange={searcher} className="form-control"/>
+        <input type="text" placeholder="Buscar alumno" onChange={searcher} className="form-control"/>
     </div>
 
     <table className="table table-striped table-hover mt-5 shadow-lgm">
